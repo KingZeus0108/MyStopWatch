@@ -1,0 +1,70 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#clockBody{
+    border: 2px solid black;
+    margin-left: 25%;
+    margin-top: 8%;
+    height: 400px;
+    width: 50%;
+    background-color: black;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px 10px rgba(170, 170, 170, 1);
+}
+
+.timerScreen {
+    margin-left: 10%;
+    margin-top: 8%;
+    height: 80px;
+    width: 80%;
+    background-color: black;
+    color: white; 
+    text-align: center;
+    line-height: 80px; 
+    font-size: 7.2em; 
+    font-family: Arial, sans-serif;   
+}
+
+#spanCont{
+    margin-top: 15%;
+}
+
+#start{
+    display: inline-block;
+    height: 60px;
+    width: 20%;
+    margin-left: 14%;
+    margin-right: 5%;
+    border-radius: 22px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    line-height: 60px; 
+}
+
+#stop,
+#reset {
+    display: inline-block;
+    height: 60px;
+    width: 20%;
+    margin-right: 5%;
+    border-radius: 22px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    line-height: 60px; 
+}
+
+#start:hover,
+#stop:hover,
+#reset:hover{
+    background-color: white;
+    color: black;
+}
